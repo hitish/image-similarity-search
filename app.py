@@ -51,7 +51,8 @@ def search_similar(query_img):
     st.write(f"Distance: {d[0][i]}")
 
 st.title("Image Similarity Search")
-uploaded_file = st.file_uploader("Choose an image", type=["jpg", "jpeg", "png"])
+st.subheader("Demo app by Hitish Singla")
+uploaded_file = st.file_uploader("Choose an image of Bear,Bison,Cat,Catterpillar,Chimpanzee,Cow,Cockroach,Dog,Dolphin,Eagle,Elephant,Goat,Leopard,Mosquito,Octopus", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
   query_img = Image.open(uploaded_file)
