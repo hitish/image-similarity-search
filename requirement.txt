@@ -1,7 +1,4 @@
 faiss-cpu
 streamlit
 torch
-faiss-cpu
-streamlit
-torch
 torchvision
